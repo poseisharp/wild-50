@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Prosperosus Doc</title>
+    <link>https://example.com/general/</link>
+    <description>Recent content in General on Prosperosus Doc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://example.com/general/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/general/introduction/</guid>
+      <description>About So I wake up one day and thought, joining a jam would be nice. And then I start kidnapping people.</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://example.com/general/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/general/faq/</guid>
+      <description>FAQ (Maybe) Q: It&amp;rsquo;s my first Jam, :aonaHOW:
+A: It&amp;rsquo;s also my first, tl;dr a jam is an event where people makes game in a period of time. at the start of the jam a theme will be announced and people will make game based on that theme, and try to submit their game before the end of the jam
+Q: I can&amp;rsquo;t code???
+A: :RushiaKeyboard:, there&amp;rsquo;s other role you can fill in.</description>
+    </item>
+  </channel>
+</rss>

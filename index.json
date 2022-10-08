@@ -1,0 +1,51 @@
+[
+  {
+    "content": "General information regarding jamjam\nToC Introduction FAQ ",
+    "description": "",
+    "tags": null,
+    "title": "General",
+    "uri": "/general/"
+  },
+  {
+    "content": "About So I wake up one day and thought, joining a jam would be nice. And then I start kidnapping people.\n",
+    "description": "",
+    "tags": null,
+    "title": "Introduction",
+    "uri": "/general/introduction/"
+  },
+  {
+    "content": "FAQ (Maybe) Q: It’s my first Jam, :aonaHOW:\nA: It’s also my first, tl;dr a jam is an event where people makes game in a period of time. at the start of the jam a theme will be announced and people will make game based on that theme, and try to submit their game before the end of the jam\nQ: I can’t code???\nA: :RushiaKeyboard:, there’s other role you can fill in. but if you want do want to help coding i think you should at least know the basic and know how git works.\nQ: Godot?! Can I eat it?\nA: it’s an engine we’re going to use to make the game It’s fairly simple to learn, I might teach the basic later\nQ: I don’t code, what to do?\nA: Game design will be the most obvious stuff, we’re going to brainstorm the game ideas and mechanic together, then you can add extra role, you might be able to do voice acting or compose music or write anything that is known in a game\nQ: When?\nA: 15-23 October\nQ: Who are these people?\nA: Good question, who are you people :HyperHanaGalaxy: (this is my queue for introduction)\nQ: Team Name?\nA: OkayuThonk\nQ: Why?\nA: Good question\nQ: Godot Version\nA: 3.4\nQ: Art direction\nA: 2D pixel art\nMore info about the jam : https://itch.io/jam/godot-wild-jam-50\n",
+    "description": "",
+    "tags": null,
+    "title": "FAQ",
+    "uri": "/general/faq/"
+  },
+  {
+    "content": "None for now\n",
+    "description": "",
+    "tags": null,
+    "title": "Lessons",
+    "uri": "/lessons/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/"
+  },
+  {
+    "content": "OkayuThonk Wild Jam 50 I created this to place FAQ and the learning material I’ll be posting along the way.\nInfo Since jam tend to be hectic our main information exchange will stay on discord\nMain contents FAQ Lessons / Tutorials Credits site created with the epic Hugo\nepic people who accepted my invitation\n",
+    "description": "",
+    "tags": null,
+    "title": "Prosperosus Documentation",
+    "uri": "/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Tags",
+    "uri": "/tags/"
+  }
+]
