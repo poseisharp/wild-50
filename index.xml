@@ -11,15 +11,24 @@
       <link>https://example.com/general/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.com/general/</guid>
-      <description>General information regarding jamjam
+      <description>General information regarding Wild jam 50
 ToC Introduction FAQ </description>
     </item>
     <item>
-      <title>Lessons</title>
-      <link>https://example.com/lessons/</link>
+      <title>Game Design</title>
+      <link>https://example.com/game-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/lessons/</guid>
-      <description>None for now</description>
+      <guid>https://example.com/game-design/</guid>
+      <description>This page will provide all the information regarding game design, from design guidelines to the design output, all of that should be included here.
+This page will be properly maintained to eliminate confusion among the designers, so please prefer to this over any other scattered docs out there.</description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://example.com/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/development/</guid>
+      <description>The development doc will primary be about the safety and regulations of this world class ravioli spaghet factory, the safety and regulations exist to prevent anyone to make a spaghet that&amp;rsquo;s too spaghet which will result in death by a thousand cuts.
+In all seriousness we should try our best to follow these guidelines because the code will be around for a while until we can ditch it and if we&amp;rsquo;re not careful it can result into a nasty productivity drop.</description>
     </item>
   </channel>
 </rss>

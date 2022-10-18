@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on OkayuThonk</title>
+    <link>https://example.com/development/</link>
+    <description>Recent content in Development on OkayuThonk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Guidelines</title>
+      <link>https://example.com/development/code_guidlines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/development/code_guidlines/</guid>
+      <description>Forced Static Typing Unfortunately GDScript Static Typing isn&amp;rsquo;t mandatory even when the optional Static Typing is turned on it&amp;rsquo;s still not forced which is not aligned with our M mindset can lead into some weird unwanted behavior.
+Our only option is to force it ourself, but sometimes as a human we forgor and that&amp;rsquo;s ogey just add the type on the Litter Pick-up phase.
+Naming Convention class	= PascalCase node	= PascalCase scene	= PascalCase variable	= snake_case function	= snake_case file	= snake_case Access Modifier GDScript doesn&amp;rsquo;t really have an Access Modifier so this is just a convention to mark stuff therefore this will not effect the code in any way.</description>
+    </item>
+    <item>
+      <title>Pattern and Architecture</title>
+      <link>https://example.com/development/pattern_and_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/development/pattern_and_architecture/</guid>
+      <description>Base Paradigm The official godot documentation favor traditional OOP over any other paradigm mainly ECS and we&amp;rsquo;re going to follow that, but it&amp;rsquo;s not restricting as in godot also offer a high level composition with scene but it&amp;rsquo;ll be primarily composed with Inheritance
+Call Down Signal Up As a rule of thumb Parent should manage it&amp;rsquo;s child, and the child shouldn&amp;rsquo;t call the parent directly. If the child need the parent to do something it should use a signal.</description>
+    </item>
+  </channel>
+</rss>

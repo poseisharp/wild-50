@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Design on OkayuThonk</title>
+    <link>https://example.com/game-design/</link>
+    <description>Recent content in Game Design on OkayuThonk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/game-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Core Gameplay</title>
+      <link>https://example.com/game-design/core-gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/game-design/core-gameplay/</guid>
+      <description>Cult of the tamb A mix of vampire suvivors and tower defense. The catch is that you, the player, have to control the character to run around the physicslly place down &amp;ldquo;towers.&amp;rdquo; Each tower is an instrument, that helps defend the ritual.
+Main Objective Defend the ritual for some amount of time Main Threats Waves of enemy. Boss Enemy Method of defense Player attacks with tambourine Player build towers that attack enemy Win Condition Survive for some amount of time and defeat the boss </description>
+    </item>
+    <item>
+      <title>Player</title>
+      <link>https://example.com/game-design/player/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/game-design/player/</guid>
+      <description>Movement 4 Way Movement player looks at mouse camera follow player Stats Hp Movement Speed Equipment Tambourine
+When equipped attack enemy with ranged sound projectile
+Build Drum Tower
+When equipped the player gain the ability to build or upgrade drum tower
+Build Clarinet Tower
+When equipped the player gain the ability to build or upgrade Clarinet tower
+Build Trombone Tower
+When equipped the player gain the ability to build or upgrade Trombone tower</description>
+    </item>
+    <item>
+      <title>Tower</title>
+      <link>https://example.com/game-design/tower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/game-design/tower/</guid>
+      <description>Main Feature Build Tower Attack Enemy Stats Damage Tower Type Drum Tower
+AoE, Medium damage, boost player speed
+Clarinet Tower
+Single target, medium-high damage,high fire-rate
+Trombone Tower
+cone shaped AoE, low damage, slows enemy</description>
+    </item>
+  </channel>
+</rss>

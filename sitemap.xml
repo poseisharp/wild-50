@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/game-design/core-gameplay/</loc>
+  </url>
+  <url>
     <loc>https://example.com/general/</loc>
   </url>
   <url>
     <loc>https://example.com/general/introduction/</loc>
   </url>
   <url>
+    <loc>https://example.com/development/code_guidlines/</loc>
+  </url>
+  <url>
     <loc>https://example.com/general/faq/</loc>
   </url>
   <url>
-    <loc>https://example.com/lessons/</loc>
+    <loc>https://example.com/game-design/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/game-design/player/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/development/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/development/pattern_and_architecture/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/game-design/tower/</loc>
   </url>
   <url>
     <loc>https://example.com/categories/</loc>

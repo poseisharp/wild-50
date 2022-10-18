@@ -1,6 +1,13 @@
 [
   {
-    "content": "General information regarding jamjam\nToC Introduction FAQ ",
+    "content": "Cult of the tamb A mix of vampire suvivors and tower defense. The catch is that you, the player, have to control the character to run around the physicslly place down “towers.” Each tower is an instrument, that helps defend the ritual.\nMain Objective Defend the ritual for some amount of time Main Threats Waves of enemy. Boss Enemy Method of defense Player attacks with tambourine Player build towers that attack enemy Win Condition Survive for some amount of time and defeat the boss ",
+    "description": "",
+    "tags": null,
+    "title": "Core Gameplay",
+    "uri": "/game-design/core-gameplay/"
+  },
+  {
+    "content": "General information regarding Wild jam 50\nToC Introduction FAQ ",
     "description": "",
     "tags": null,
     "title": "General",
@@ -14,18 +21,53 @@
     "uri": "/general/introduction/"
   },
   {
-    "content": "FAQ (Maybe) Q: It’s my first Jam, :aonaHOW:\nA: It’s also my first, tl;dr a jam is an event where people makes game in a period of time. at the start of the jam a theme will be announced and people will make game based on that theme, and try to submit their game before the end of the jam\nQ: I can’t code???\nA: :RushiaKeyboard:, there’s other role you can fill in. but if you want do want to help coding i think you should at least know the basic and know how git works.\nQ: Godot?! Can I eat it?\nA: it’s an engine we’re going to use to make the game It’s fairly simple to learn, I might teach the basic later\nQ: I don’t code, what to do?\nA: Game design will be the most obvious stuff, we’re going to brainstorm the game ideas and mechanic together, then you can add extra role, you might be able to do voice acting or compose music or write anything that is known in a game\nQ: When?\nA: 15-23 October\nQ: Who are these people?\nA: Good question, who are you people :HyperHanaGalaxy: (this is my queue for introduction)\nQ: Team Name?\nA: OkayuThonk\nQ: Why?\nA: Good question\nQ: Godot Version\nA: 3.4\nQ: Art direction\nA: 2D pixel art\nMore info about the jam : https://itch.io/jam/godot-wild-jam-50\n",
+    "content": "Forced Static Typing Unfortunately GDScript Static Typing isn’t mandatory even when the optional Static Typing is turned on it’s still not forced which is not aligned with our M mindset can lead into some weird unwanted behavior.\nOur only option is to force it ourself, but sometimes as a human we forgor and that’s ogey just add the type on the Litter Pick-up phase.\nNaming Convention class\t= PascalCase node\t= PascalCase scene\t= PascalCase variable\t= snake_case function\t= snake_case file\t= snake_case Access Modifier GDScript doesn’t really have an Access Modifier so this is just a convention to mark stuff therefore this will not effect the code in any way.\nTo mark a variable as private prefix it with an underscore.\nleave public and protected variable as is.\nMethod doesn’t have an access modifier, a method with underscore prefix indicate that it’s somekind of callback function and not a private metod. If an object can access another object method then it’s either safe to do so or there’s something wrong with the architecture, as a rule of thumb if the method you’re trying to access is part of the local scene tree then it’s fine to access it but if it’s not please proceed with caution.\nGetter Setter Only create getter setter when there’s an extra stuff taking place if the getter setter serve no purpose it’s better to not have them in the first place.\nprefix the member variable with an underscore\ngetter: get_variable_name\nsetter: set_variable_name\nRedundant:\nfunc set_is_in_battle(new_state: bool) -\u003e void: is_in_battle = new_state Reasonable:\nfunc set_is_in_battle(new_state: bool) -\u003e void: if new_state == true: battle_timer.start() is_in_battle = new_state emit_signal(\"battle_state_changed\") Exporting Variable We want our designer workflow to be as frictionless as possible and providing them with the ability to tweak stuff inside without touching the code is a great value and this can be done with expoting the variables.\nTo export variable we need to prefix our variable with the export keyword followed by the export option variable name and then the type.\nExample: export(String, MULTILINE) var skill_description: String\n",
+    "description": "",
+    "tags": null,
+    "title": "Code Guidelines",
+    "uri": "/development/code_guidlines/"
+  },
+  {
+    "content": "FAQ (Maybe) Q: It’s my first Jam, :aonaHOW:\nA: It’s also my first, tl;dr a jam is an event where people makes game in a period of time. at the start of the jam a theme will be announced and people will make game based on that theme, and try to submit their game before the end of the jam\nQ: I can’t code???\nA: :RushiaKeyboard:, there’s other role you can fill in. but if you want do want to help coding i think you should at least know the basic and know how git works.\nQ: Godot?! Can I eat it?\nA: it’s an engine we’re going to use to make the game It’s fairly simple to learn, I might teach the basic later\nQ: I don’t code, what to do?\nA: Game design will be the most obvious stuff, we’re going to brainstorm the game ideas and mechanic together, then you can add extra role, you might be able to do voice acting or compose music or write anything that is known in a game\nQ: When?\nA: 15-23 October\nQ: Who are these people?\nA: Good question, who are you people :HyperHanaGalaxy: (this is my queue for introduction)\nQ: Team Name?\nA: OkayuThonk\nQ: Why?\nA: Good question\nQ: Godot Version\nA: 3.5.1 stable\nQ: Art direction\nA: 2D pixel art\nMore info about the jam : https://itch.io/jam/godot-wild-jam-50\n",
     "description": "",
     "tags": null,
     "title": "FAQ",
     "uri": "/general/faq/"
   },
   {
-    "content": "None for now\n",
+    "content": "This page will provide all the information regarding game design, from design guidelines to the design output, all of that should be included here.\nThis page will be properly maintained to eliminate confusion among the designers, so please prefer to this over any other scattered docs out there.\n",
     "description": "",
     "tags": null,
-    "title": "Lessons",
-    "uri": "/lessons/"
+    "title": "Game Design",
+    "uri": "/game-design/"
+  },
+  {
+    "content": "Movement 4 Way Movement player looks at mouse camera follow player Stats Hp Movement Speed Equipment Tambourine\nWhen equipped attack enemy with ranged sound projectile\nBuild Drum Tower\nWhen equipped the player gain the ability to build or upgrade drum tower\nBuild Clarinet Tower\nWhen equipped the player gain the ability to build or upgrade Clarinet tower\nBuild Trombone Tower\nWhen equipped the player gain the ability to build or upgrade Trombone tower\n",
+    "description": "",
+    "tags": null,
+    "title": "Player",
+    "uri": "/game-design/player/"
+  },
+  {
+    "content": "The development doc will primary be about the safety and regulations of this world class ravioli spaghet factory, the safety and regulations exist to prevent anyone to make a spaghet that’s too spaghet which will result in death by a thousand cuts.\nIn all seriousness we should try our best to follow these guidelines because the code will be around for a while until we can ditch it and if we’re not careful it can result into a nasty productivity drop.\nI hate to say this but unfortunately this will only prevent the code to become less spaghet and not to eradicate the entire spaghet, every pattern and paradigm come with consequences, even the perfect combinations of patterns will still result in some drawbacks but it’s still better than not using any pattern at all.\nTip Our responsibility is not to create the greatest the most modular scratch free architecture but to create a working game, so if there’s some imperfection here and there it’s perfectly fine if the game runs.\n",
+    "description": "",
+    "tags": null,
+    "title": "Development",
+    "uri": "/development/"
+  },
+  {
+    "content": "Base Paradigm The official godot documentation favor traditional OOP over any other paradigm mainly ECS and we’re going to follow that, but it’s not restricting as in godot also offer a high level composition with scene but it’ll be primarily composed with Inheritance\nCall Down Signal Up As a rule of thumb Parent should manage it’s child, and the child shouldn’t call the parent directly. If the child need the parent to do something it should use a signal.\nExample:\n// Do // Call Down get_node(\"child\").do_something() // Signal Up signal child_hurt func damaged(): emit_signal(\"child_hurt\") func _on_child_hurt(): // do_something() // Don't // Call up get_node(\"../..\").parent_do_something() Composition over Inheritance KinematicBody2D -\u003e Entity -\u003e Character -\u003e Sprite -\u003e Area2D -\u003e Hitbox -\u003e Area2d -\u003e Hurtbox -\u003e Node2D -\u003e Weapon In this specific project, we should encourage shallow Inheritance but wide composition.\nContext Based Coupling Objects should be coupled when they’re related enough.\nExample:\nA player will have a sprite and this instance of sprite is specifically exist for the player itself so any other object will not cares about its existence is the character base class therefore it’s safe to tightly couple them.\nIf it’s not related enough, do not couple them\nExample:\nAn npc have the ability to prompt dialog, so at a first glance it is reasonable to put the dialog node inside the scene tree of that NPC but dialog can also can be called other than NPC so it’s a bad idea to couple them together, if this is the case please refer to Global Signal.\nSignal and Global Signal This is an extennsion of the regular Signal pattern the regular signal pattern usually used when a child needs to notify its parent that something happened, if that’s the case a regular signal will do wonders but when other Node needs to know something happened but doesn’t have a direct connection to the Node that’s when we should use Global Signal.\nWe will use a forbidden technique here:\nSingleton\nCalm dowm, this is probably one of the safest singleton that we can use because it doesn’t create any tight coupling\nIt will only provide an easy access to connect a signal. Example:\nHUD \u003c-\u003e Global Signal \u003c-\u003e Character\nCharacter will send a signal that something happened but doesn’t care who received that signal so even when the signal sender is gone there will be no crash since there’s no direct donnection\nSo when to use Global Signal?\nWe want to use signal if two or more object cares about it’s significance\nExample:\nWhen enemy hitbox enters player’s hurtbox the player base class needs to know that it happened so it can reduce the player’s health and at the same time the UI also needs to know that to update the Health Bar.\nWhen to not use Global Signal?\nIf the receiver has a more convinient way to connect to the signal then it’s best to not use a Global Signal\nSo there will be a singleton named SignalManager that’ll act as a bridge between nodes, and any node can send and receive signal to and from this singleton.\nAssumption is Evil Do not assume that something will exist, that’s a quick and easy way to create a debugging hell.\nFor example:\nThe enemy needs player position at all times for it to works, this is an assumption it assumes that the player will exist no matter what but in reality this is hard to achieve, the enemy ai can exist before the player or the player may die and dissapear from meory in that case the entire game will break.\nSince GDScript is not enforcing any kind of safety regarding this we have to improvise and restrain ourself from using unsafe reference.\nUnsafe refrence usually is a fruit of a quick solution that our head conjure and more often than not the first solution that came into our head isn’t the greatest, so just keep in mind that when we create an unsafe reference there might be a better way of doing it.\nSingleton I know, I know, I’ve been saying that I hate this one pattern but it’s somewhat unavoidable there’s no escaping it, we’re just going to have to use it better.\nAs a rule of them if the singleton can exist in another game without a lot of modification then it’s generic enough to be a singleton after all most of the problem with signleton is the tight coupling and it it’s not tight and just provide an easy acess to something then yeah that’s nice.\n",
+    "description": "",
+    "tags": null,
+    "title": "Pattern and Architecture",
+    "uri": "/development/pattern_and_architecture/"
+  },
+  {
+    "content": "Main Feature Build Tower Attack Enemy Stats Damage Tower Type Drum Tower\nAoE, Medium damage, boost player speed\nClarinet Tower\nSingle target, medium-high damage,high fire-rate\nTrombone Tower\ncone shaped AoE, low damage, slows enemy\n",
+    "description": "",
+    "tags": null,
+    "title": "Tower",
+    "uri": "/game-design/tower/"
   },
   {
     "content": "",
@@ -35,7 +77,7 @@
     "uri": "/categories/"
   },
   {
-    "content": "OkayuThonk Wild Jam 50 I created this to place FAQ and the learning material I’ll be posting along the way.\nInfo Since jam tend to be hectic our main information exchange will stay on discord\nMain contents FAQ Lessons / Tutorials Credits site created with the epic Hugo\nepic people who accepted my invitation\n",
+    "content": "Okayu Thonk Wild Jam 50 I created this to place FAQ and other general information.\nInfo Since jam tend to be hectic our main information exchange will stay on discord\nMain contents FAQ Lessons / Tutorials Credits site created with the epic Hugo\nepic people who accepted my invitation\n",
     "description": "",
     "tags": null,
     "title": "OkayuThonk",
